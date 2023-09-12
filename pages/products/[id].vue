@@ -1,5 +1,10 @@
 <template>
   <div>
+    <Head>
+      <Title>
+        Store Nuxt App | {{ product.title }}
+      </Title>
+    </Head>
     <ProductDetails :product="product"/>
   </div>
 </template>
